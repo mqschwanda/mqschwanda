@@ -77,6 +77,7 @@
     "redux": "^3.7.1",
     "style-loader": "^0.18.2",
     "styled-components": "^2.1.1",
+    "typography": "^0.15.12",
     "webpack": "^2.6.1"
   },
   "false": {}

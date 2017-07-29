@@ -9,8 +9,13 @@ import 'normalize-css'; // normalize helps standardize browser defaults
 import React from 'react';
 import { Provider } from 'react-redux';
 import { render } from 'react-dom';
+// import Typography from 'typography';
+
 import { App } from 'layouts';
+import { typography } from 'modules';
 import store from 'reducers/index';
+
+typography.injectStyles(); // insert typography styles directly into the <head>
 
 render(<Provider {...{ store }}><App/></Provider>, document.getElementById('app'));
 
