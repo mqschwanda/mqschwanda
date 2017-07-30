@@ -61,7 +61,7 @@ export default {
   plugins: [
     new HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Radio Disney Listen',
+      title: 'Mark Q Schwanda',
       filename: 'index.html',
       appMountId: 'app',
       mobile: true,
